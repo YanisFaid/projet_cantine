@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.head h1{
+    color: #fff;
+    letter-spacing: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 13px;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/aubrey-odom-mabey-bzbWIxsN3iQ-unsplash.jpg") center/cover no-repeat;
+
+}
+
+section{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-top: 8rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+
+.card-img{
+    background: url("images/food.jpg") center/cover no-repeat;
+    /* height: 90%; */
+}
+
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.card-content{
+    background: #fff;
+    height: 330px;
+    border-radius: 6px;
+}
+
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.date{
+    width: 130px;
+    justify-content: center;
+    display: flex;
+    margin-left: 9rem;
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input[type = text], form input [type = number], form input::placeholder, select{color: #000;}
+
+form input[type = submit]{
+    color: #fff;
+    background: #1160b1;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type = submit]:hover{opacity: 0.9;}
+
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+    }
+
+    .card-img{
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.banner img{
+    margin-top: 8rem;
+}
+
+.container .mesresa { 
+    background-color: #fff;
+    width: 300px;
+    height: 30rem;
+    border-radius: 4px;
+    margin-left: 3.5%;
+  }
+  
+  .mesresa { 
+      /* grid-area: mesresa; */
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 2%;
+      padding-top: 1.5%;
+    }
+  
+.mesresa h3{
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+
+}
+
+.containers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boutton{
+    border-style: none;
+    background-color: #fff;
+    color: gray;
+    font-size: 17px;
+    display: block;
+    float: left;
+}
+
+.boutton:hover{
+    color: #1160b1;
+    font-size: 19px;
+}
+
+.mesresa p{
+    color: #000;
+    margin-top: 4%;
+    /* display: flex; */
+    width:90%;
+}
+
+.mesresa .date_resa{
+    display: inline;
+    margin-left: 5%;
+}
+
+.mail{
+    color: rgb(0, 0, 0);
+    background: none;
+    padding: 12px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.mail a{
+    text-decoration: none;
+    color: #000;
+}
+
+.masque{
+    display: none;
+}
