@@ -10,7 +10,7 @@ de se connecter et d'émettre une réservation pour la cantine.
 Prérequis
 --------------
 
-Apache2, php7.4 minimum, mariadb-server
+Wamp server, visual studio code
 
 Frameworks utilisés
 --------------------
